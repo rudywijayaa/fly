@@ -24,10 +24,18 @@ const Home = () => {
         className='homeImages flex'
       >
         <div className='videoDiv'>
-          <video src={video} autoPlay muted loop className='video'></video>
+          <video
+            src={video}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload='auto'
+            className='video'
+          ></video>
         </div>
 
-        <img src={aeroplane} alt='Plane' className='plane' />
+        <img src={aeroplane} alt='Plane' className='plane' loading='lazy' />
       </div>
     </div>
   );
