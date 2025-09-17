@@ -27,6 +27,11 @@
 body {
   background: var(--whiteColor);
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  align-items: center;
+  justify-content: center;
 }
 
 a {

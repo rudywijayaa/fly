@@ -54,7 +54,7 @@ const Navbar = () => {
 
       <div className={noBg}>
         <div className='logoDiv'>
-          <img src={logo} alt='Logo' className='logo' />
+          <img src={logo} alt='Logo' className='logo' loading='lazy' />
         </div>
 
         <div className={active}>

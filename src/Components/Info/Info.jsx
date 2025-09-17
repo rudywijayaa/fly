@@ -15,10 +15,10 @@ const Info = () => {
     <div className='info section'>
       <div className='infoContainer container'>
         <div className='titleDiv flex'>
-          <h2 data-aos='fade-right' data-aos-duration='2500'>
+          <h2 data-aos='fade-down' data-aos-duration='2500'>
             Travel to make memories all around the world
           </h2>
-          <button data-aos='fade-left' data-aos-duration='2500' className='btn'>
+          <button data-aos='fade-down' data-aos-duration='2500' className='btn'>
             View All
           </button>
         </div>

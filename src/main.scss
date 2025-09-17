@@ -29,7 +29,12 @@
 // Default Styling ========>
 body {
     background: var(--whiteColor);
-    overflow-x: hidden;
+    overflow-x: hidden; 
+    display:flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -250,6 +255,7 @@ h2 {
     flex-direction: column;
     text-align: center;
     gap: 2rem;
+    
 
     .mainText {
         color: var(--blackColor);

@@ -74,6 +74,7 @@ const Travelers = () => {
                     src={destinationImage}
                     alt='Paris Image'
                     className='destinationImage'
+                    loading='lazy'
                   />
                   <div className='travelersDetails'>
                     <div className='travelerPicture'>
@@ -81,6 +82,7 @@ const Travelers = () => {
                         src={travelerImage}
                         alt='Traveler Image'
                         className='travelerImage'
+                        loading='lazy'
                       />
                     </div>
                     <div className='travelerName'>

@@ -12,8 +12,8 @@ const Lounge = () => {
   return (
     <div className='lounge container section'>
       <div className='sectionContainer grid'>
-        <div data-aos='fade-left' data-aos-duration='2500' className='imgDiv'>
-          <img src={imageGrid} alt='Lounge Image' />
+        <div data-aos='fade-down' data-aos-duration='2500' className='imgDiv'>
+          <img src={imageGrid} alt='Lounge Image' loading='lazy' />
         </div>
 
         <div className='textDiv'>

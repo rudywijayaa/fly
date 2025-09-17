@@ -63,8 +63,8 @@ const Support = () => {
             </div>
           </div>
 
-          <div data-aos='fade-left' data-aos-duration='3500' className='imgDiv'>
-            <img src={gridImage} alt='Image Support' />
+          <div data-aos='fade-down' data-aos-duration='3500' className='imgDiv'>
+            <img src={gridImage} alt='Image Support' loading='lazy' />
           </div>
         </div>
       </div>
